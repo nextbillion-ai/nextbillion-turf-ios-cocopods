@@ -16,14 +16,14 @@ Pod::Spec.new do |spec|
   This is a iOS xcframework repository, users can integrate with Nextbillion iOS Turf through cocoaPods 
                    DESC
 
-  spec.homepage     = "https://github.com/nextbillion-ai/nextbillion-turf-ios"
+  spec.homepage     = "https://github.com/nextbillion-ai/nextbillion-turf-ios-cocopods"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   spec.author       = { "Nextbillion.AI" => "" }
 
   spec.source       = {
-    :git => "https://github.com/nextbillion-ai/nextbillion-turf-ios.git",
+    :git => "https://github.com/nextbillion-ai/nextbillion-turf-ios-cocopods.git",
     :tag => '3.0.1'
   }
 

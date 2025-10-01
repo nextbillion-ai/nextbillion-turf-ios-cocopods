@@ -1,0 +1,11 @@
+framework module NBTurf {
+  umbrella header "NBTurf.h"
+  export *
+
+  module * { export * }
+}
+
+module NBTurf.Swift {
+  header "NBTurf-Swift.h"
+  requires objc
+}
